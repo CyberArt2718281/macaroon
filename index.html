@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="dist/style.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>macaroons</title>
 </head>
@@ -19,11 +20,11 @@
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
                     width="40px" height="22px">
-                <path fill-rule="evenodd"  fill="rgb(130, 19, 40)"
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
                       d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"/>
-                <path fill-rule="evenodd"  fill="rgb(130, 19, 40)"
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
                       d="M0.000,10.000 L40.000,10.000 L40.000,12.000 L0.000,12.000 L0.000,10.000 Z"/>
-                <path fill-rule="evenodd"  fill="rgb(130, 19, 40)"
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
                       d="M0.000,20.000 L40.000,20.000 L40.000,22.000 L0.000,22.000 L0.000,20.000 Z"/>
             </svg>
         </div>
@@ -61,8 +62,6 @@
         <div class="header-number">
             <span>+375 (29) 368-98-68</span>
         </div>
-
-
     </div>
 
 
@@ -72,7 +71,7 @@
 <main class="main">
     <div class="container main-container">
 
-        <div class="main-info">
+        <div class="main-info wow animate__backInLeft">
             <div class="main-info-title">
                 Мягкие французские пироженки Macaroons
             </div>
@@ -85,19 +84,18 @@
                 </button>
             </div>
         </div>
-        <div class="main-image">
-<!--            <div class="main-animation-circle one"></div>-->
-<!--            <div class="main-animation-circle two"></div>-->
-            <img src="images/main-macaroon.png" alt="macaroons">
+        <div class="main-image wow animate__backInRight">
+            <!--            <div class="main-animation-circle one"></div>-->
+            <!--            <div class="main-animation-circle two"></div>-->
+            <img src="src/images/main-macaroon.png" alt="macaroons">
         </div>
-
     </div>
 </main>
 
 <section class="advantages" id="advantages">
     <div class="container advantages-container">
         <div class="advantages-block-top">
-            <div class="advantages-info">
+            <div class="advantages-info wow animate__backInLeft">
                 <div class="advantages-info-title">
                     Мы печём для вас
                     вкуснейшие макаруны
@@ -111,12 +109,12 @@
                     улучшителей муки.
                 </div>
             </div>
-            <div class="advantages-image">
-                <img src="images/small-macaroon.png" alt="macaroon">
+            <div class="advantages-image wow animate__backInRight">
+                <img src="src/images/small-macaroon.png" alt="macaroon">
             </div>
         </div>
 
-        <div class="advantages-numbers">
+        <div class="advantages-numbers wow animate__backInUp ">
             <div class="advantages-number">
                 <div class="advantages-number-circle">
                     1
@@ -165,15 +163,15 @@
 
 <section class="products" id="products">
     <div class="container products-container">
-        <div class="products-title">
+        <div class="products-title wow animate__fadeInUp">
             Выберите свой макарун
         </div>
         <div class="products-items">
 
-            <div class="product-item">
+            <div class="product-item wow animate__fadeInUp">
 
                 <div class="product-item-image">
-                    <img src="images/1.png" alt="macaroon">
+                    <img src="src/images/1.png" alt="macaroon">
                 </div>
 
 
@@ -196,10 +194,10 @@
 
             </div>
 
-            <div class="product-item">
+            <div class="product-item wow animate__fadeInDown">
 
                 <div class="product-item-image">
-                    <img src="images/4.png" alt="macaroon">
+                    <img src="src/images/4.png" alt="macaroon">
                 </div>
 
                 <div class="product-item-title">
@@ -221,11 +219,11 @@
 
             </div>
 
-            <div class="product-item">
+            <div class="product-item wow animate__fadeInUp">
 
 
                 <div class="product-item-image">
-                    <img src="images/5.png" alt="macaroon">
+                    <img src="src/images/5.png" alt="macaroon">
                 </div>
 
                 <div class="product-item-title">
@@ -246,10 +244,10 @@
                 </div>
             </div>
 
-            <div class="product-item product-item-four">
+            <div class="product-item product-item-four wow animate__fadeInDown">
 
                 <div class="product-item-image">
-                    <img src="images/7.png" alt="macaroon">
+                    <img src="src/images/7.png" alt="macaroon">
                 </div>
                 <div class="product-item-title">
                     Пирог с фисташками
@@ -275,11 +273,14 @@
 
 <section class="order" id="order">
     <div class="container order-container">
-        <img src="images/strawberry.png" alt="strawberry" class="strawberry-one">
-        <div class="order-image">
-            <img src="images/macaroon.png" alt="macaroon">
+        <img src="src/images/strawberry.png" alt="strawberry" class="strawberry-one">
+        <div class="order-image wow animate__bounceInLeft">
+            <img src="src/images/macaroon.png" alt="macaroon">
         </div>
-        <div class="order-info">
+        <div class="order-success wow animate__fadeInUp" style="display: none;">
+            Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!
+        </div>
+        <div class="order-info wow animate__bounceInUp">
             <div class="order-info-title">Закажите макарун!</div>
             <div class="order-info-text">Выберите понравившийся макарун, заполните форму и ожидайте звонка нашего
                 пекаря!
@@ -288,23 +289,26 @@
                 <div class="order-info-choice-title">
                     Ваш выбор
                 </div>
+                <div class="error error-product">заполните выбор</div>
                 <input type="text" placeholder="Напишите, что хотите заказать..." class="input order-info-input">
             </div>
             <div class="order-info-form">
                 <div class="order-info-title-form">
                     Заполните данные для заказа
                 </div>
+                <div class="error error-name">заполните имя</div>
                 <input type="text" placeholder="Ваше имя" class="input order-form-input-name">
+                <div class="error error-number">заполните телефон</div>
                 <input type="text" placeholder="+375 (__) ___ - __ - __" class="input order-form-input-number">
-                <button class="button button-order-form">Оформить заказ</button>
+                <button class="button button-order-form" type="button">Оформить заказ</button>
             </div>
         </div>
-        <img src="images/strawberry-2.png" alt="strawberry" class="strawberry-two">
+        <img src="src/images/strawberry-2.png" alt="strawberry" class="strawberry-two">
     </div>
 </section>
 <footer class="footer">
     <div class="container footer-container">
-        <div class="footer-logo-rights-group">
+        <div class="footer-logo-rights-group wow animate__fadeInUp">
             <div class="logo footer-logo">
                 macaroons
             </div>
@@ -312,21 +316,21 @@
                 Все права защищены, 2020
             </div>
         </div>
-        <div class="footer-message">
+        <div class="footer-message wow animate__fadeInUp">
             <a href="#" class="footer-message-icon">
-                <img src="images/instagram.png" alt="instagram">
+                <img src="src/images/instagram.png" alt="instagram">
             </a>
             <div class="footer-message-text">
                 Мы в Instagram
             </div>
         </div>
-        <div class="footer-number">
+        <div class="footer-number wow animate__fadeInUp">
             <span>+375 (29) 368-98-68</span>
         </div>
     </div>
 </footer>
 
-<div class="body-gifts">
+<div class="body-gifts wow animate__fadeInRight">
     <div class="gift-text-block">
         <div class="main-block-figure">
             <span>Оформите заказ</span>
@@ -337,7 +341,8 @@
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
                     width="18px" height="28px">
-                <path fill-rule="evenodd"  stroke="rgb(119, 10, 29)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="rgb(254, 239, 238)"
+                <path fill-rule="evenodd" stroke="rgb(119, 10, 29)" stroke-width="2px" stroke-linecap="butt"
+                      stroke-linejoin="miter" fill="rgb(254, 239, 238)"
                       d="M15.508,13.401 L1.692,25.264 L1.692,1.538 L15.508,13.401 Z"/>
             </svg>
         </div>
@@ -346,27 +351,27 @@
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
                     width="18px" height="28px">
-                <path fill-rule="evenodd"  stroke="rgb(119, 10, 29)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="rgb(254, 239, 238)"
+                <path fill-rule="evenodd" stroke="rgb(119, 10, 29)" stroke-width="2px" stroke-linecap="butt"
+                      stroke-linejoin="miter" fill="rgb(254, 239, 238)"
                       d="M15.508,13.401 L1.692,25.264 L1.692,1.538 L15.508,13.401 Z"/>
             </svg>
         </div>
     </div>
     <div class="image-fon">
-        <img src="images/gift.png" alt="gift" class="box-gift">
+        <img src="src/images/gift.png" alt="gift" class="box-gift">
     </div>
 </div>
 
-<script>
-    document.getElementById('burger').onclick = function () {
-        document.getElementById('menu').classList.add('open');
-    }
-    document.querySelectorAll('#menu *').forEach((item) => {
-        item.onclick = () => {
-            document.getElementById('menu').classList.remove('open')
-        }
-    })
-</script>
+<div class="loader-block">
+    <span class="loader"></span>
+</div>
 
 
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery-ui/dist/jquery-ui.min.js"></script>
+<script src="node_modules/wowjs/dist/wow.min.js"></script>
+<script src="node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="src/script/script.js"></script>
 </body>
 </html>
