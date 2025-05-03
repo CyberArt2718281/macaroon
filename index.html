@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="dist/style.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>macaroons</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-container">
+        <div class="logo header-logo">
+            macaroons
+        </div>
+        <div class="header-burger" id="burger">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="40px" height="22px">
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                      d="M0.000,-0.000 L40.000,-0.000 L40.000,2.000 L0.000,2.000 L0.000,-0.000 Z"/>
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                      d="M0.000,10.000 L40.000,10.000 L40.000,12.000 L0.000,12.000 L0.000,10.000 Z"/>
+                <path fill-rule="evenodd" fill="rgb(130, 19, 40)"
+                      d="M0.000,20.000 L40.000,20.000 L40.000,22.000 L0.000,22.000 L0.000,20.000 Z"/>
+            </svg>
+        </div>
+        <div class="menu" id="menu">
+            <div class="menu-close">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	</g>
+</g>
+</svg>
+            </div>
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="#products">Пироженки</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#advantages">О нас</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#order">Оформить заказ</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header-number">
+            <span>+375 (29) 368-98-68</span>
+        </div>
+    </div>
+
+
+</header>
+
+
+<main class="main">
+    <div class="container main-container">
+
+        <div class="main-info wow animate__backInLeft">
+            <div class="main-info-title">
+                Мягкие французские пироженки Macaroons
+            </div>
+            <div class="main-info-description">
+                Побалуйте себя и своих близких самыми вкусными и ароматными домашними пироженками Macaroon!
+            </div>
+            <div class="main-info-action">
+                <button class="button main-button">
+                    Выбрать макарун
+                </button>
+            </div>
+        </div>
+        <div class="main-image wow animate__backInRight">
+            <!--            <div class="main-animation-circle one"></div>-->
+            <!--            <div class="main-animation-circle two"></div>-->
+            <img src="src/images/main-macaroon.png" alt="macaroons">
+        </div>
+    </div>
+</main>
+
+<section class="advantages" id="advantages">
+    <div class="container advantages-container">
+        <div class="advantages-block-top">
+            <div class="advantages-info wow animate__backInLeft">
+                <div class="advantages-info-title">
+                    Мы печём для вас
+                    вкуснейшие макаруны
+                    уже более 10 лет
+                </div>
+                <div class="advantages-info-description">
+                    Все пироженки мы готовим только из натуральных и качественных продуктов, без консервантов,
+                    ароматизаторов,
+                    красителей. Используем в приготовлении сливочное масло 82,5%, без дрожжей, маргарина, разрыхлителей
+                    и
+                    улучшителей муки.
+                </div>
+            </div>
+            <div class="advantages-image wow animate__backInRight">
+                <img src="src/images/small-macaroon.png" alt="macaroon">
+            </div>
+        </div>
+
+        <div class="advantages-numbers wow animate__backInUp ">
+            <div class="advantages-number">
+                <div class="advantages-number-circle">
+                    1
+                </div>
+                <div class="advantages-number-title">Лучшие продукты</div>
+                <div class="advantages-number-description">
+                    Мы честно готовим макаруны только из натуральных и качественных продуктов. Мы не используем
+                    консерванты,
+                    ароматизаторы и красители.
+                </div>
+            </div>
+            <div class="advantages-number">
+                <div class="advantages-number-circle">
+                    <span class="advantages-number-circle-span">2</span>
+                </div>
+                <div class="advantages-number-title">Много вкусов</div>
+                <div class="advantages-number-description">
+                    Наша задача – предоставить вам широкое разнобразие вкусов. Вы удивитесь, но у нас более 70 вкусов
+                    пироженок.
+                </div>
+            </div>
+            <div class="advantages-number">
+                <div class="advantages-number-circle">
+                    <span class="advantages-number-circle-span">3</span>
+                </div>
+                <div class="advantages-number-title">Бисквитное тесто</div>
+                <div class="advantages-number-description">
+                    Все пирожные готовятся на бисквитном тесте с качественным сливочным маслом 82,5%. В составе нет
+                    маргарина и дрожжей!
+                </div>
+            </div>
+            <div class="advantages-number advantages-number-four">
+                <div class="advantages-number-circle">
+                    <span class="advantages-number-circle-span">4</span>
+                </div>
+                <div class="advantages-number-title">Честный продукт</div>
+                <div class="advantages-number-description">Вкус, качество и безопасность наших пирогов подтверждена
+                    декларацией о соответствии, которую мы получили 22.06.2016 г.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="products" id="products">
+    <div class="container products-container">
+        <div class="products-title wow animate__fadeInUp">
+            Выберите свой макарун
+        </div>
+        <div class="products-items">
+
+            <div class="product-item wow animate__fadeInUp">
+
+                <div class="product-item-image">
+                    <img src="src/images/1.png" alt="macaroon">
+                </div>
+
+
+                <div class="product-item-title">
+                    Макарун с малиной
+                </div>
+                <div class="product-item-group">
+                    <div class="product-item-info">
+                        <div class="product-item-quantity">
+                            1 шт.
+                        </div>
+                        <div class="product-item-price">
+                            1,70 руб.
+                        </div>
+                    </div>
+                    <div class="product-action">
+                        <button class="button button-product-item">Заказать</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="product-item wow animate__fadeInDown">
+
+                <div class="product-item-image">
+                    <img src="src/images/4.png" alt="macaroon">
+                </div>
+
+                <div class="product-item-title">
+                    Макарун с манго
+                </div>
+                <div class="product-item-group">
+                    <div class="product-item-info">
+                        <div class="product-item-quantity">
+                            1 шт.
+                        </div>
+                        <div class="product-item-price">
+                            1,70 руб.
+                        </div>
+                    </div>
+                    <div class="product-action">
+                        <button class="button button-product-item">Заказать</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="product-item wow animate__fadeInUp">
+
+
+                <div class="product-item-image">
+                    <img src="src/images/5.png" alt="macaroon">
+                </div>
+
+                <div class="product-item-title">
+                    Пирог с ванилью
+                </div>
+                <div class="product-item-group">
+                    <div class="product-item-info">
+                        <div class="product-item-quantity">
+                            1 шт.
+                        </div>
+                        <div class="product-item-price">
+                            1,70 руб.
+                        </div>
+                    </div>
+                    <div class="product-action">
+                        <button class="button button-product-item">Заказать</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item product-item-four wow animate__fadeInDown">
+
+                <div class="product-item-image">
+                    <img src="src/images/7.png" alt="macaroon">
+                </div>
+                <div class="product-item-title">
+                    Пирог с фисташками
+                </div>
+                <div class="product-item-group">
+                    <div class="product-item-info">
+                        <div class="product-item-quantity">
+                            1 шт.
+                        </div>
+                        <div class="product-item-price">
+                            1,70 руб.
+                        </div>
+                    </div>
+                    <div class="product-action">
+                        <button class="button button-product-item">Заказать</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order" id="order">
+    <div class="container order-container">
+        <img src="src/images/strawberry.png" alt="strawberry" class="strawberry-one">
+        <div class="order-image wow animate__bounceInLeft">
+            <img src="src/images/macaroon.png" alt="macaroon">
+        </div>
+        <div class="order-success wow animate__fadeInUp" style="display: none;">
+            Спасибо за Ваш заказ. Мы скоро свяжемся с Вами!
+        </div>
+        <div class="order-info wow animate__bounceInUp">
+            <div class="order-info-title">Закажите макарун!</div>
+            <div class="order-info-text">Выберите понравившийся макарун, заполните форму и ожидайте звонка нашего
+                пекаря!
+            </div>
+            <div class="order-info-choice">
+                <div class="order-info-choice-title">
+                    Ваш выбор
+                </div>
+                <div class="error error-product">заполните выбор</div>
+                <input type="text" placeholder="Напишите, что хотите заказать..." class="input order-info-input">
+            </div>
+            <div class="order-info-form">
+                <div class="order-info-title-form">
+                    Заполните данные для заказа
+                </div>
+                <div class="error error-name">заполните имя</div>
+                <input type="text" placeholder="Ваше имя" class="input order-form-input-name">
+                <div class="error error-number">заполните телефон</div>
+                <input type="text" placeholder="+375 (__) ___ - __ - __" class="input order-form-input-number">
+                <button class="button button-order-form" type="button">Оформить заказ</button>
+            </div>
+        </div>
+        <img src="src/images/strawberry-2.png" alt="strawberry" class="strawberry-two">
+    </div>
+</section>
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="footer-logo-rights-group wow animate__fadeInUp">
+            <div class="logo footer-logo">
+                macaroons
+            </div>
+            <div class="footer-logo-rights">
+                Все права защищены, 2020
+            </div>
+        </div>
+        <div class="footer-message wow animate__fadeInUp">
+            <a href="#" class="footer-message-icon">
+                <img src="src/images/instagram.png" alt="instagram">
+            </a>
+            <div class="footer-message-text">
+                Мы в Instagram
+            </div>
+        </div>
+        <div class="footer-number wow animate__fadeInUp">
+            <span>+375 (29) 368-98-68</span>
+        </div>
+    </div>
+</footer>
+
+<div class="body-gifts wow animate__fadeInRight">
+    <div class="gift-text-block">
+        <div class="main-block-figure">
+            <span>Оформите заказ</span>
+            <span>и получите подарок!</span>
+        </div>
+        <div class="addition-figure">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="18px" height="28px">
+                <path fill-rule="evenodd" stroke="rgb(119, 10, 29)" stroke-width="2px" stroke-linecap="butt"
+                      stroke-linejoin="miter" fill="rgb(254, 239, 238)"
+                      d="M15.508,13.401 L1.692,25.264 L1.692,1.538 L15.508,13.401 Z"/>
+            </svg>
+        </div>
+        <div class="addition-figure-two">
+            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="18px" height="28px">
+                <path fill-rule="evenodd" stroke="rgb(119, 10, 29)" stroke-width="2px" stroke-linecap="butt"
+                      stroke-linejoin="miter" fill="rgb(254, 239, 238)"
+                      d="M15.508,13.401 L1.692,25.264 L1.692,1.538 L15.508,13.401 Z"/>
+            </svg>
+        </div>
+    </div>
+    <div class="image-fon">
+        <img src="src/images/gift.png" alt="gift" class="box-gift">
+    </div>
+</div>
+
+<div class="loader-block">
+    <span class="loader"></span>
+</div>
+
+
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/jquery-ui/dist/jquery-ui.min.js"></script>
+<script src="node_modules/wowjs/dist/wow.min.js"></script>
+<script src="node_modules/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="src/script/script.js"></script>
+</body>
+</html>
